@@ -1,0 +1,30 @@
+main>.container {
+    padding: 60px 15px 0;
+}
+
+main>.container-fluid{
+    padding-top: 60px;
+}
+body>main{
+    margin-top: 20px;
+    margin-bottom:60px
+}
+ .homeBG{
+     width:100%; /*Take up all width of screen*/
+     background: url(/Bootstrap\ Grid\ proj/img/GridBG.png); /*Access the GridBG img*/
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover; /*Scale img up or down as needed*/
+     background-attachment: fixed;
+ }
+
+ .homeText{
+     font-family: modesto-open-shadow, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     color: rgb(199, 255, 0);
+ }
+
+ .minHeight{
+     min-height: 80vh; /*This will look at current viewport (4k, iphone 5, etc) and calciulate 80% of that.*/
+ }

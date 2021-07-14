@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <title>Bootstrap and grids</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/bgColor.css">
+<link rel="stylesheet" href="css/site.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bootstrap Grids</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link"   href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="grid1.html">Grid 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="grid2.html">Grid 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="grid3.html">Grid 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="grid4.html">Grid 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="grid5.html">Grid 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="grid6.html">Grid 6</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="grid7.html">Grid 7</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="grid8.html">Grid 8</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="grid9.html">Grid 9</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <main class="flex-shrink-0">
+       <div class="container h-100 minHeight">
+           <div class="row h-100">
+               <div class="col-7"> <!--left column-->
+                   <div class="bg-dark text-light p-2 h-100"><!--What we have here is dark background white text padding of 2 and height of max which is 100-->
+                        <h1>Article Title</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci magnam iste, ullam, ad praesentium optio tempore, quod fugiat exercitationem ipsum quis? Exercitationem quas eos rem totam, mollitia expedita quasi voluptatibus. Rem ex placeat eos quae voluptatem in distinctio iure delectus illo? Veniam laudantium unde molestias optio vitae quisquam, quae numquam tempore, soluta ipsa earum asperiores ad libero, excepturi exercitationem alias a saepe nulla repellendus velit! Quia exercitationem labore fugiat dolores suscipit quas doloribus, similique esse veritatis, provident iusto quisquam, nihil quidem asperiores voluptate iste enim molestiae quam accusantium perspiciatis consequuntur ut dicta. Aut omnis aperiam quae asperiores temporibus unde nostrum?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sequi quibusdam nihil non iste error sit adipisci officiis vel saepe, magnam in aliquid ratione, illum consequuntur, soluta minus recusandae fugiat fugit! Ipsum velit itaque incidunt consequatur voluptates enim deserunt facere assumenda dignissimos tenetur. Nemo non, soluta voluptatem distinctio optio accusamus consequatur temporibus explicabo, eum ipsum tenetur est consequuntur iusto commodi rem earum saepe doloremque ipsam rerum veniam. Facilis dolorem, quo accusantium obcaecati harum vitae nulla inventore incidunt ad dignissimos quis placeat necessitatibus, ipsum minus, neque numquam minima sunt magnam temporibus. Consequuntur praesentium est aliquam, necessitatibus eveniet repudiandae nemo delectus modi!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus consequatur nisi praesentium quo placeat ducimus repellendus delectus. Nesciunt, eos aliquid animi fugiat quia necessitatibus possimus numquam. In, consectetur amet libero modi explicabo earum assumenda eos a consequatur facilis tempora quis? Voluptates ullam sit tempora, ex aut aliquid ab illum nihil vel ratione dignissimos, labore autem assumenda recusandae, nobis culpa distinctio consectetur. Voluptate corporis consequuntur tempora. Dolorum debitis non dolorem numquam odio nihil ut quaerat blanditiis modi ducimus dignissimos saepe harum rerum atque, eaque totam aspernatur rem ab, explicabo delectus voluptatibus dolore hic. Ratione voluptas qui dignissimos atque dolores necessitatibus! Modi?</p>
+                   </div> 
+               </div>
+               <div class="col h-100 d-flex flex-column justify-content-evenly"><!--right column--> <!--We use a flex box and specifiy it as a flex column so we are stacking the items we have still abnd we are justifying contetn evenly-->
+                   <div class="bg-secondary text-light p-2 h-50 overflow-auto"> <!--right top column--> <!--What we have here is background secondary, white ltext, padding and split height of 50-->
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur consectetur fugit illo quod recusandae voluptas. Rerum tempora ullam corrupti voluptate sapiente nulla ipsa accusamus repellat ex expedita atque dolorum velit neque minus nesciunt quo, eaque ipsum? Nam labore magnam sapiente eum totam voluptates aliquid blanditiis ipsa ipsum qui eligendi nostrum aperiam odio, fugit quod recusandae rem tempora quam doloribus exercitationem aut eos! Repellat atque sint incidunt sit, assumenda at eaque repudiandae, magni aliquam asperiores odit. Vel placeat laborum labore error, nulla fugit vitae tenetur quo quam, voluptatibus distinctio maiores esse adipisci commodi ex perspiciatis. Sint atque at vel deleniti pariatur.</p>
+                   </div>
+                   <div class="bg-dark text-light p-2 h-50 mt-2 overflow-hidden"> <!--right bottom column--> <!--What we have here is dark background, light text, padding of two, a split height of 50 and margintop of 2-->                    
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quidem hic provident esse non cum inventore iste delectus, vel ratione cupiditate iure doloribus architecto blanditiis laboriosam, atque nemo minus rerum, modi perspiciatis adipisci. Reiciendis reprehenderit temporibus quo, enim vitae iste. Illum ipsa quia ducimus ipsum architecto consectetur deserunt minus doloribus dolore necessitatibus, alias deleniti ut nam molestias optio voluptas facilis aspernatur dolorem dolorum, vitae tenetur numquam! Nesciunt deserunt et sequi dolor blanditiis quibusdam, nulla non voluptatibus fugit at sunt, quia voluptas harum suscipit facilis fugiat a velit exercitationem? Recusandae, ducimus nobis. Blanditiis impedit modi suscipit fugiat, expedita itaque deserunt recusandae!</p>
+                   </div>
+                   <div class="bg-dark text-light border border-top p-2">
+                       <div class="btn btn-dark" type="button">Read More</div>
+                   </div>
+               </div>
+           </div>
+        
+       </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container-fluid text-center">
+            <span class="text-white">Bootstrap And The Grids By Matthew Snyder</span>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
